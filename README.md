@@ -14,3 +14,12 @@ sudo ./install auto<br />
 sudo yum install -y python-pip<br />
 sudo pip install awscli<br />
 sudo systemctl restart codedeploy-agent
+
+
+
+
+
+
+# you can create 2 roles for this project 
+1. AWScodedeployrole.  ( this is for code-deploy)
+2. AmazonEC2RoleforAWSCodeDeploy && AmazonEC2RoleforAWSCodeDeployLimited ( this 2 roles for auto-deploy your application to your server ) 
