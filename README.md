@@ -22,4 +22,7 @@ sudo systemctl restart codedeploy-agent
 
 # you can create 2 roles for this project 
 1. AWScodedeployrole.  ( this is for code-deploy)
-2. AmazonEC2RoleforAWSCodeDeploy && AmazonEC2RoleforAWSCodeDeployLimited ( this 2 roles for auto-deploy your application to your server ) 
+2. AmazonEC2RoleforAWSCodeDeploy && AmazonEC2RoleforAWSCodeDeployLimited ( this 2 roles for auto-deploy your application to your server )
+
+   ![4 drawio](https://github.com/Manikandan-29/aws_cicd_pipline_codedeploy/assets/114275756/187cbfa6-d4b6-4854-b931-5c18e049d140)
+
